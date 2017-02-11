@@ -1,3 +1,3 @@
-CREATE USER 'mecu-user';
-CREATE DATABASE 'mecu-db';
-GRANT ALL PRIVILEGES ON DATABASE 'mecu-db' TO 'mecu-user';
+CREATE USER mecuser;
+CREATE DATABASE mecu;
+GRANT ALL PRIVILEGES ON DATABASE mecu TO mecuser;
