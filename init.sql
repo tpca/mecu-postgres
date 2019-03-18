@@ -1,3 +1,5 @@
-CREATE USER mecuser;
 CREATE DATABASE mecu;
+
+CREATE USER mecuser;
+ALTER USER mecuser WITH PASSWORD 'mecu_user_password';
 GRANT ALL PRIVILEGES ON DATABASE mecu TO mecuser;
